@@ -33,3 +33,19 @@ add these values and run:
 ```
 php artisan config:clear
 ```
+# Usage #
+```
+use Webiver\LaravelTwilio\Twilio;
+
+
+
+$toPhone = "+20120****"; // You need to complete the number in the international format
+$mesaage = "Hello World";
+
+// send sms message
+Twilio::sms($toPhone,$mesaage);
+
+// send whatsapp message
+Twilio::whatsapp($toPhone,$mesaage);
+
+```
