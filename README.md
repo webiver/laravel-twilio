@@ -24,5 +24,7 @@ TWILIO_SMS_PHONE_NUMBER=
 TWILIO_WHATSAPP_PHONE_NUMBER=
 ```
 **sid** and **token** are credentails that you can get from twilio.
+
 **TWILIO_SMS_PHONE_NUMBER** refers to the sms phone sender number that will be registered with twillio
+
 **TWILIO_WHATSAPP_PHONE_NUMBER** refers to the whatsapp phone sender number that will be registered with twillio
