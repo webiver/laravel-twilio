@@ -15,7 +15,7 @@ Register the package service provider in **config/app.php** file:
     /*
         * Package Service Providers...
     */
-        Webiver\LaravelTwilio\LaravelTwilioServiceProvider::class,
+        **Webiver\LaravelTwilio\LaravelTwilioServiceProvider::class,**
     /*
         * Application Service Providers...
     */
