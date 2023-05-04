@@ -5,10 +5,11 @@ A laravel package that helps you integrate twilio into your laravel app easily.
 Require the packae in the composer file:
 
 `
-    "require": {
+    "require":
+     {
 
         ....
-        
+
         "webiver/laravel-twilio": "dev-master"
 
     },
