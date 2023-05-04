@@ -23,7 +23,7 @@ TWILIO_AUTH_TOKEN=
 TWILIO_SMS_PHONE_NUMBER=
 TWILIO_WHATSAPP_PHONE_NUMBER=
 ```
-**TWILIO_ACCOUNT_SID** and **token** are credentails that you can get from your twilio account.
+**TWILIO_ACCOUNT_SID** and **TWILIO_AUTH_TOKEN** are credentails that you can get from your twilio account.
 
 **TWILIO_SMS_PHONE_NUMBER** refers to the sms phone sender number that will be registered with twillio.
 
