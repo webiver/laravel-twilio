@@ -16,5 +16,8 @@
     "require": {
         "php": ">=8.0.0",
         "twilio/sdk": "^7.3"
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "version": "1.0.0"
 }
