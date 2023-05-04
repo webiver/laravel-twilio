@@ -9,6 +9,7 @@ Require the package in the composer file:
         "webiver/laravel-twilio": "dev-master"
     },
 ```
+then run composer imstall.
 # Register the provider #
 Register the package service provider in **config/app.php** file:
 ```
