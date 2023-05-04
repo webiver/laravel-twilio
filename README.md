@@ -15,3 +15,14 @@ Register the package service provider in **config/app.php** file:
 ```
 Webiver\LaravelTwilio\LaravelTwilioServiceProvider::class,
 ```
+# Add Environment Variables #
+Now we have to add three lines in **.env** file
+```
+TWILIO_ACCOUNT_SID=
+TWILIO_AUTH_TOKEN=
+TWILIO_SMS_PHONE_NUMBER=
+TWILIO_WHATSAPP_PHONE_NUMBER=
+```
+**sid** and **token** are credentails that you can get from twilio.
+**TWILIO_SMS_PHONE_NUMBER** refers to the sms phone sender number that will be registered with twillio
+**TWILIO_WHATSAPP_PHONE_NUMBER** refers to the whatsapp phone sender number that will be registered with twillio
