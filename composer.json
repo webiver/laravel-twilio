@@ -1,5 +1,7 @@
 {
     "name": "webiver/laravel-twilio",
+    "description" : "This is a Laravel package for Twilio",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Webiver\\LaravelTwilio\\": "src/"
@@ -12,7 +14,7 @@
         }
     ],
     "require": {
-        "php": "^8.1",
+        "php": ">=8.0.0",
         "twilio/sdk": "^7.3"
     }
 }
