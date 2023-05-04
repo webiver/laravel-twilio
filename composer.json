@@ -1,0 +1,17 @@
+{
+    "name": "webiver/laravel-twilio",
+    "autoload": {
+        "psr-4": {
+            "Webiver\\LaravelTwilio\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "EngMohammed40",
+            "email": "engmohammedahmed40@gmail.com"
+        }
+    ],
+    "require": {
+        "twilio/sdk": "^7.3"
+    }
+}
