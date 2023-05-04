@@ -12,5 +12,5 @@ Require the package in the composer file:
 # Register the provider #
 Register the package service provider in **config/app.php** file:
 ```
-    Webiver\LaravelTwilio\LaravelTwilioServiceProvider::class,
+Webiver\LaravelTwilio\LaravelTwilioServiceProvider::class,
 ```
