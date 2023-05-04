@@ -23,8 +23,13 @@ TWILIO_AUTH_TOKEN=
 TWILIO_SMS_PHONE_NUMBER=
 TWILIO_WHATSAPP_PHONE_NUMBER=
 ```
-**sid** and **token** are credentails that you can get from twilio.
+**TWILIO_ACCOUNT_SID** and **token** are credentails that you can get from your twilio account.
 
-**TWILIO_SMS_PHONE_NUMBER** refers to the sms phone sender number that will be registered with twillio
+**TWILIO_SMS_PHONE_NUMBER** refers to the sms phone sender number that will be registered with twillio.
 
-**TWILIO_WHATSAPP_PHONE_NUMBER** refers to the whatsapp phone sender number that will be registered with twillio
+**TWILIO_WHATSAPP_PHONE_NUMBER** refers to the whatsapp phone sender number that will be registered with twillio.
+
+add these values and run: 
+```
+php artisan config:clear
+```
